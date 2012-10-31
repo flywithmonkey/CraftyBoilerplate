@@ -1,6 +1,6 @@
 Info = BaseEntity.extend({
 	defaults: {
-        'text' : "Move object with arrows key",
+        'text' : "Move object with arrows key"
     },
     initialize: function(){
     	var model = this;
@@ -12,7 +12,7 @@ Info = BaseEntity.extend({
             .textColor('#000')
             .textFont({'size' : '24px', 'family': 'Arial'})
             .bind('Click', function(){
-                                
+
             })
 
     	model.set({'entity' : entity });

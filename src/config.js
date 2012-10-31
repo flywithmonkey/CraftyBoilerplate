@@ -3,7 +3,7 @@ Config = Backbone.Model.extend({
         'renderType' : 'Canvas'
     },
     initialize: function() {
-       
-    },
-    
+
+    }
+
 });
